@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="igor_dft",
-    version="0.0.3",
+    version="0.0.4",
     author="Igor Pereira", #<<<
     author_email="ipereira@peq.coppe.ufrj.br", #<<<
     description="A small cdft package", #<<<
