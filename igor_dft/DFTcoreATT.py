@@ -2,8 +2,8 @@ import math as mt
 import numpy as np
 import scipy as sp
 from time import process_time
-import DFTpreprocessingATT as PP
-import DFTmathfunc as MT
+from . import DFTpreprocessingATT as PP
+from . import DFTmathfunc as MT
 import matplotlib.pyplot as plt
 
 

@@ -3,10 +3,10 @@ import numpy as np
 import scipy as sp
 from time import process_time
 import matplotlib.pyplot as plt
-import DFTpreprocessingATT as PP
-import DFTcoreATT as CORE
-import DFTinputsATT as IN
-import DFTmathfunc as MATH
+from . import DFTpreprocessingATT as PP
+from . import DFTcoreATT as CORE
+from . import DFTinputsATT as IN
+from . import DFTmathfunc as MATH
 
 r = np.linspace(0+1E-3,PP.Hcc-1E-3,PP.NPmesh)
 Vext = CORE.DFT_ExternalPotential(r)

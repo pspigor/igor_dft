@@ -1,7 +1,7 @@
 import math as mt
 import numpy as np
 import scipy.optimize as sp
-import DFTinputsATT as IN
+from . import DFTinputsATT as IN
 
 # CONSTANTE DE BOLTZMANN:
     
